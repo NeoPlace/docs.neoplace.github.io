@@ -8,13 +8,15 @@ Welcome to NeoPlace's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Api
+   :glob:
 
+   api/index
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Lib
+   :glob:
 
-Indices and tables
-==================
+   lib/index
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

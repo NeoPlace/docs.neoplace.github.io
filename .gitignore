@@ -102,3 +102,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+.idea
+*.iml
+.factorypath
+classes
+target
+bin/
+.classpath
+.project
+.settings/
