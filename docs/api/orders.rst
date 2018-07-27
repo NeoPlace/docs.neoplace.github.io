@@ -62,7 +62,7 @@ Inform and update the status order that the item has been dispatched::
 | **articleid** {{item_id}}
 
 Confirm reception
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 Confirm the reception order and unlock funds to the seller (use our NeoPlace library to interact with our smart contract and generate the transaction hash)::
 
@@ -76,4 +76,4 @@ Confirm the reception order and unlock funds to the seller (use our NeoPlace lib
 *BODY*
 
 | **articleid** {{item_id}}
-| **tx** {{ethereum_transaction_hash}}
+| **tx** {{ethereum_transaction_hash}}~
