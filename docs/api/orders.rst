@@ -76,4 +76,4 @@ Confirm the reception order and unlock funds to the seller (use our NeoPlace lib
 *BODY*
 
 | **articleid** {{item_id}}
-| **tx** {{ethereum_transaction_hash}}~
+| **tx** {{ethereum_transaction_hash}}
