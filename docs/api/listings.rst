@@ -15,17 +15,6 @@ Get my own listings::
 
 **Authorization** Bearer {{token_access}}
 
-Get my sales
-~~~~~~~~~~~~
-
-Get my sales::
-
-    https://api.neoplace.io/api/auth/article/mysales
-
-*HEADERS*
-
-**Authorization** Bearer {{token_access}}
-
 Create a new listing
 ~~~~~~~~~~~~~~~~~~~~
 
