@@ -16,7 +16,7 @@ Get my sales::
 **Authorization** Bearer {{token_access}}
 
 Get my purchases
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 Get my purchases::
 
@@ -25,3 +25,22 @@ Get my purchases::
 *HEADERS*
 
 **Authorization** Bearer {{token_access}}
+
+Buy an item
+~~~~~~~~~~~~
+
+Buy an item (use our NeoPlace library to interact with our smart contract and generate the transaction hash)::
+
+    https://api.neoplace.io/api/auth/article/buy
+
+*HEADERS*
+
+| **Authorization** Bearer {{token_access}}
+| **Content-Type** application/x-www-form-urlencoded
+
+*BODY*
+
+| **articleid** {{item_id}}
+| **name** {{buyer_name}}
+| **address** {{shipping_address}}
+| **tx** {{ethereum_transaction_hash}}
