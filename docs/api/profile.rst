@@ -18,7 +18,7 @@ Get my profile (GET request)::
 Update my profile
 ~~~~~~~~~~~~~~~~~
 
-Update my profile (GET request)::
+Update my profile (POST request)::
 
     https://api.neoplace.io/api/auth/user/profil/update
 
