@@ -7,7 +7,7 @@ API calls for handling your profile.
 Get my profile
 ~~~~~~~~~~~~~~
 
-Get my profile::
+Get my profile (GET request)::
 
     https://api.neoplace.io/api/auth/user/content
 
@@ -18,7 +18,7 @@ Get my profile::
 Update my profile
 ~~~~~~~~~~~~~~~~~
 
-Get my profile::
+Update my profile (GET request)::
 
     https://api.neoplace.io/api/auth/user/profil/update
 
@@ -38,4 +38,4 @@ Get my profile::
 | **currencyMethod** {{currencymethoed(USD)}}
 | **telegram** {{telegram_username}}
 | **address** {{my_address}}
-| **pictureProfilUrl** {{ipfs_hash}}~
+| **pictureProfilUrl** {{ipfs_hash}}

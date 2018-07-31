@@ -7,7 +7,7 @@ API calls for handling listings
 Get my listings
 ~~~~~~~~~~~~~~~
 
-Get my own listings::
+Get my own listings (GET request)::
 
     https://api.neoplace.io/api/auth/article/mypublished
 
@@ -18,7 +18,7 @@ Get my own listings::
 Create a new listing
 ~~~~~~~~~~~~~~~~~~~~
 
-Create a new listing::
+Create a new listing (POST request)::
 
     https://api.neoplace.io/api/auth/article/new
 
@@ -48,7 +48,7 @@ Create a new listing::
 Update a listing
 ~~~~~~~~~~~~~~~~~~~~
 
-Update a listing::
+Update a listing (POST request)::
 
     https://api.neoplace.io/api/auth/article/update
 

@@ -18,7 +18,7 @@ Get my sales::
 Get my purchases
 ~~~~~~~~~~~~~~~~
 
-Get my purchases::
+Get my purchases (GET request)::
 
     https://api.neoplace.io/api/auth/article/mypurchases
 
@@ -29,7 +29,7 @@ Get my purchases::
 Buy an item
 ~~~~~~~~~~~~
 
-Buy an item (use our NeoPlace library to interact with our smart contract and generate the transaction hash)::
+Buy an item (use our NeoPlace library to interact with our smart contract and generate the transaction hash) (POST request)::
 
     https://api.neoplace.io/api/auth/article/buy
 
@@ -48,7 +48,7 @@ Buy an item (use our NeoPlace library to interact with our smart contract and ge
 Dispatch an item
 ~~~~~~~~~~~~~~~~~
 
-Inform and update the status order that the item has been dispatched::
+Inform and update the status order that the item has been dispatched (POST request)::
 
     https://api.neoplace.io/api/auth/article/send
 
@@ -64,7 +64,7 @@ Inform and update the status order that the item has been dispatched::
 Confirm reception
 ~~~~~~~~~~~~~~~~~
 
-Confirm the reception order and unlock funds to the seller (use our NeoPlace library to interact with our smart contract and generate the transaction hash)::
+Confirm the reception order and unlock funds to the seller (use our NeoPlace library to interact with our smart contract and generate the transaction hash) (POST request)::
 
     https://api.neoplace.io/api/auth/article/receive
 
