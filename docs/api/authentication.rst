@@ -34,7 +34,7 @@ Sign the message
 ~~~~~~~~~~~~~~~~
 Once you receive the `nonce` in the response from the API call above, sign the message with your private key by running the following code (web3 library required)::
 
-    web3.personal.sign(nonce, web3.eth.coinbase, callback);
+    web3.personal.sign(web3.fromUtf8(`Log in NeoPlace (nonce: ${nonce})`), web3.eth.coinbase, console.log);
 
 Obtain authentication token
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
