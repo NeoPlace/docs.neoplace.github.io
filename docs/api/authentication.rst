@@ -11,7 +11,7 @@ The basic idea is that it’s cryptographically easy to prove the ownership of a
 
 First you need to get a `nonce` for your ethereum address (GET request)::
 
-    https://api.neoplace.io/subscribe/address?publicAddress={{ethereum_address}}
+    https://api.neoplace.io/api/subscribe/address?publicAddress={{ethereum_address}}
 
 Response::
 
@@ -23,7 +23,7 @@ Response::
 If you have received an empty response, you must signup before (POST request)::
 
     curl --request POST \
-      --url "https://api.neoplace.io/subscribe/signup" \
+      --url "https://api.neoplace.io/api/subscribe/signup" \
       --data '{
       "publicAddress": "{{ethereum_address}}",
     }'
