@@ -76,4 +76,17 @@ Update a listing (POST request)::
 | **status** {{status}}
 | **id** {{article_id}}
 
+Create a new listing from Amazon catalog (inventory report)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create a new listing (POST request)::
 
+    https://api.neoplace.io/api/auth/article/new/upload
+
+*HEADERS*
+
+| **Authorization** Bearer {{token_access}}
+| **Content-Type** application/x-www-form-urlencoded
+
+*BODY*
+
+| **file** {{file}}
